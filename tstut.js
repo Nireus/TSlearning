@@ -17,3 +17,6 @@ var superman = {
     superName: "Superman"
 };
 document.write(superman.realName + " is " + superman.superName + "<br />");
+var employees = ["alice", "bob", "celine"];
+//employees.push(5);
+document.write(employees.toString() + "<br />");

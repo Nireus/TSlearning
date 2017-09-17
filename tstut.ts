@@ -21,12 +21,18 @@ const PI = 3.14159
 
 
 interface SuperHero {
-  realName: String;
-  superName: String;
+    realName: String;
+    superName: String;
 }
 
 var superman: SuperHero = {
-  realName: "Clark Kent",
-  superName: "Superman"
+    realName: "Clark Kent",
+    superName: "Superman"
 }
 document.write(superman.realName + " is " + superman.superName + "<br />");
+
+
+var employees: string[] = ["alice", "bob", "celine"];
+
+//employees.push(5);
+document.write(employees.toString() + "<br />")
